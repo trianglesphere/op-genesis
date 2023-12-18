@@ -153,7 +153,7 @@ func testRollupConfig(t *testing.T, path string, chainID uint64, override func(*
 
 	// Apply overrides & assert that the override is necessary (to prevent stale overrides)
 	if override != nil {
-		require.NotEqual(t, &config, config2,"When using overrides, the pre-overide config should not be the same as the superchain registry config")
+		require.NotEqual(t, &config, config2, "When using overrides, the pre-overide config should not be the same as the superchain registry config")
 		override(&config)
 	}
 	require.Equal(t, &config, config2)
