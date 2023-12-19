@@ -86,6 +86,13 @@ func TestConfigs(t *testing.T) {
 			gethOverride: mainnetGethOverride,
 			nodeOverride: mainnetNodeOverride,
 		},
+		{
+			name:         "Mode Mainnet",
+			path:         "data/mainnet/mode",
+			chainID:      34443,
+			gethOverride: mainnetGethOverride,
+			nodeOverride: mainnetNodeOverride,
+		},
 		// Sepolia
 		{
 			name:         "Base Sepolia",

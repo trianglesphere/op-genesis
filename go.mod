@@ -7,6 +7,8 @@ replace github.com/ethereum/go-ethereum => github.com/ethereum-optimism/op-geth 
 // replace github.com/ethereum/go-ethereum => ../go-ethereum
 // replace github.com/ethereum-optimism/optimism => ../monorepo
 
+replace github.com/ethereum-optimism/superchain-registry/superchain => github.com/mode-network/superchain-registry/superchain v0.0.0-20231213113757-bd9006026568
+
 require (
 	github.com/ethereum-optimism/optimism v1.4.0-rc.3.0.20231218204641-da2e8c5723eb
 	github.com/ethereum/go-ethereum v1.13.5
